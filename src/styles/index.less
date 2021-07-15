@@ -1,0 +1,243 @@
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.common_box{
+  // border:1px solid #2d4661;
+  border: 1px solid #2d4661;
+    border-image: -webkit-linear-gradient(transparent, #2d4661) 20 20;
+    border-image: -moz-linear-gradient(transparent, #2d4661) 20 20;
+    border-image: -o-linear-gradient(transparent, #2d4661) 20 20;
+    border-image: linear-gradient(transparent, #2d4661) 20 20;
+  background: rgba(8,24,49,0.3);
+  padding:10px 0px;
+  height: fit-content;
+}
+.cursor-pointer {
+  // cursor: default;
+}
+
+// 高德地图去logo水印
+.amap-logo {
+  display: none !important;
+  pointer-events: none;
+}
+
+.common_bg {
+  // opacity: 0.5;
+  background: rgba(2, 14, 23, 0.5);
+  border-radius: 4px;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.common_bg_left {
+  // opacity: 0.3;
+  background: rgba(8, 34, 48, 0.3);
+  border-radius: 4px;
+}
+
+.picture_common_bg {
+  background: rgba(5, 18, 33, 0.85);
+  border: 1px solid #143346;
+  border-radius: 9px;
+  padding: 6px 20px;
+  font-size: 14px;
+  width: 100%;
+}
+
+.beauty-scroll {
+  scrollbar-color: #1890ff #91d5ff;
+  /* 第一个方块颜色，第二个轨道颜色(用于更改火狐浏览器样式) */
+  scrollbar-width: thin;
+  /* 火狐滚动条无法自定义宽度，只能通过此属性使滚动条宽度变细 */
+  -ms-overflow-style: none;
+  /* 隐藏滚动条（在IE和Edge两个浏览器中很难更改样式，固采取隐藏方式） */
+
+  /* 以下是chrome浏览器自定义滚动条样式方式 */
+  &::-webkit-scrollbar {
+    /*滚动条整体样式*/
+    width: 3px;
+    /*高宽分别对应横竖滚动条的尺寸*/
+    height: 6px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    /*滚动条里面小方块*/
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 0 1px rgba(0, 0, 0, 0);
+    background: #aaa;
+  }
+
+  &::-webkit-scrollbar-track {
+    /*滚动条里面轨道*/
+    -webkit-box-shadow: inset 0 0 1px rgba(0, 0, 0, 0);
+    border-radius: 3px;
+    background: #fff;
+  }
+}
+
+.ghost_btn {
+  color: #fff;
+  border: 1px solid #51aafe;
+  background: transparent;
+
+  &:hover {
+    background: transparent;
+    color: #fff;
+    border: 1px solid #51aafe;
+  }
+}
+
+.el-scrollbar__wrap {
+  overflow-x: hidden;
+}
+
+.block_title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  position: relative;
+  margin: 0px -20px 18px;
+  padding: 0px 20px;
+  background-image: linear-gradient(to right, #203b5d, #051221);
+  font-size: 18px;
+}
+
+.row_item_title {
+  display: flex;
+  border: 1px solid #375d8c;
+  border-left: none;
+  border-right: none;
+  padding: 4px 10px;
+  background: rgba(55, 93, 140, 0.3);
+
+  &.actived {
+    background: #2f8ae9;
+  }
+}
+
+.el-select-dropdown {
+  background: rgb(1, 21, 46);
+
+  .el-select-dropdown__empty {
+    color: #fff;
+  }
+}
+
+.el-cascader-node:not(.is-disabled):hover {
+  background: #f5f7fa;
+}
+
+.el-input .el-input__count {
+  color: #fff !important;
+}
+
+.el-input .el-input__count .el-input__count-inner {
+  background: transparent;
+}
+
+.el-select-dropdown__list {
+  background: rgb(1, 22, 47);
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+.el-select-dropdown__item {
+  // background: red;
+  color: #fff;
+}
+
+.el-select-dropdown__item.hover,
+.el-select-dropdown__item:hover {
+  color: #fff;
+  background-color: rgb(4, 42, 73);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-18 {
+  font-size: 18px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+.margin-right-10 {
+  margin-right: 10px;
+}
+
+.margin-bottom-10 {
+  margin-bottom: 10px;
+}
+
+.margin-bottom-20 {
+  margin-bottom: 20px;
+}
+
+.margin-bottom-40 {
+  margin-bottom: 40px;
+}
+
+.margin-bottom-30 {
+  margin-bottom: 30px;
+}
+
+.margin-top-10 {
+  margin-top: 10px;
+}
+
+.margin-top-15 {
+  margin-top: 15px;
+}
+
+.margin-top-20 {
+  margin-top: 20px;
+}
+
+.margin-top-30 {
+  margin-top: 30px;
+}
+
+.my_list_pagination.el-pagination {
+  // .el-pagination .btn-next,
+  // .el-pagination .btn-prev {
+  // background: center center no-repeat red;
+  // background-size: 16px;
+  background: transparent !important;
+  cursor: default;
+  margin: 0;
+  color: #fff;
+
+  button:disabled {
+    background: transparent !important;
+  }
+
+  .btn-next,
+  .btn-prev {
+    background: transparent !important;
+    color: #fff;
+  }
+
+  .el-pager li.btn-quicknext,
+  .el-pager li.btn-quickprev {
+    color: #fff;
+  }
+
+  .el-dialog,
+  .el-pager li {
+    background: transparent !important;
+  }
+}

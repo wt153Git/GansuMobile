@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'minglan_mono';
+  src: url('minglan_mono.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MingLan_Bold';
+  src: url('minglan-bold.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFUDINENGSCHRIFT';
+  src: url('SFUDINENGSCHRIFT.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MicrosoftYaHeiBold';
+  src: url('MicrosoftYaHeiBold.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Acens';
+  src: url('Acens.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LED';
+  src: url('DIGITAL-7MONO.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SourceHanSansCN-Bold';
+  src: url('SourceHanSansCN-Bold.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DIN-BLACK';
+  src: url('DIN-BLACK.OTF');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SFU DIN';
+  src: url('SFUDinNeuGroLight.TTF');
+  font-weight: normal;
+  font-style: normal;
+}
